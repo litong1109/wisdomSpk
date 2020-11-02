@@ -31,7 +31,7 @@ import com.spk.system.service.ISysUserService;
 /**
  * 用户信息
  * 
- * @author zel
+ * @author litong
  */
 @Controller
 @RequestMapping("/system/user")
