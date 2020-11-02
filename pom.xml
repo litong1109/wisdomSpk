@@ -3,16 +3,16 @@
         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.exhibition</groupId>
-    <artifactId>exhibition</artifactId>
+    <groupId>com.wisdomSpk</groupId>
+    <artifactId>wisdomSpk</artifactId>
     <version>1.0.0</version>
 
-    <name>exhibition</name>
+    <name>wisdomSpk</name>
     <url>http://www.lylee.cn</url>
-    <description>管理系统</description>
+    <description>智慧超市系统</description>
     
     <properties>
-        <exhibition.version>1.0.0</exhibition.version>
+        <wisdomSpk.version>1.0.0</wisdomSpk.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
@@ -181,49 +181,57 @@
             
             <!-- 定时任务-->
             <dependency>
-                <groupId>com.exhibition</groupId>
-                <artifactId>exhibition-quartz</artifactId>
-                <version>${exhibition.version}</version>
+                <groupId>com.wisdomSpk</groupId>
+                <artifactId>wisdomSpk-quartz</artifactId>
+                <version>${wisdomSpk.version}</version>
             </dependency>
 
             <!-- 代码生成-->
             <dependency>
-                <groupId>com.exhibition</groupId>
-                <artifactId>exhibition-generator</artifactId>
-                <version>${exhibition.version}</version>
+                <groupId>com.wisdomSpk</groupId>
+                <artifactId>wisdomSpk-generator</artifactId>
+                <version>${wisdomSpk.version}</version>
             </dependency>
 
             <!-- 核心模块-->
             <dependency>
-                <groupId>com.exhibition</groupId>
-                <artifactId>exhibition-framework</artifactId>
-                <version>${exhibition.version}</version>
+                <groupId>com.wisdomSpk</groupId>
+                <artifactId>wisdomSpk-framework</artifactId>
+                <version>${wisdomSpk.version}</version>
             </dependency>
 
             <!-- 系统模块-->
             <dependency>
-                <groupId>com.exhibition</groupId>
-                <artifactId>exhibition-system</artifactId>
-                <version>${exhibition.version}</version>
+                <groupId>com.wisdomSpk</groupId>
+                <artifactId>wisdomSpk-system</artifactId>
+                <version>${wisdomSpk.version}</version>
             </dependency>
 
             <!-- 通用工具-->
             <dependency>
-                <groupId>com.exhibition</groupId>
-                <artifactId>exhibition-common</artifactId>
-                <version>${exhibition.version}</version>
+                <groupId>com.wisdomSpk</groupId>
+                <artifactId>wisdomSpk-common</artifactId>
+                <version>${wisdomSpk.version}</version>
+            </dependency>
+
+            <!-- 业务模块-->
+            <dependency>
+                <groupId>com.wisdomSpk</groupId>
+                <artifactId>wisdomSpk-business</artifactId>
+                <version>${wisdomSpk.version}</version>
             </dependency>
 
         </dependencies>
     </dependencyManagement>
 
     <modules>
-        <module>exhibition-admin</module>
-        <module>exhibition-framework</module>
-        <module>exhibition-system</module>
-        <module>exhibition-quartz</module>
-        <module>exhibition-generator</module>
-        <module>exhibition-common</module>
+        <module>wisdomSpk-admin</module>
+        <module>wisdomSpk-framework</module>
+        <module>wisdomSpk-system</module>
+        <module>wisdomSpk-quartz</module>
+        <module>wisdomSpk-generator</module>
+        <module>wisdomSpk-common</module>
+        <module>wisdomSpk-business</module>
     </modules>
     <packaging>pom</packaging>
 

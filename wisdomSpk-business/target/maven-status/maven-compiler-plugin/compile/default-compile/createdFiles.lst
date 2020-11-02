@@ -1,0 +1,5 @@
+com\zel\system\service\ISysConfigService.class
+com\zel\system\service\impl\SysConfigServiceImpl.class
+com\zel\system\domain\SysConfig.class
+com\zel\system\mapper\SysConfigMapper.class
+com\zel\system\utils\DictUtils.class
